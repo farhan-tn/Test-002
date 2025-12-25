@@ -64,7 +64,6 @@ const ShopBy = ({ filter, title }) => {
 
       {filter === "bestSellers" && (
         <div className="flex flex-col items-center my-16 w-full">
-          <p className="prose prose-2xl font-bold mb-6">Top Brands</p>
           <div className="flex flex-wrap justify-center">
             {data.map((elem, id) => (
               <div
